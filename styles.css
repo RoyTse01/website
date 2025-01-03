@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#image-container {
+  width: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  display: none; /* Hide all images initially */
+}
+
+img.active {
+  display: block; /* Show the active image */
+}
